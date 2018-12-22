@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <id>wiremock-record-12vw_CS-from_FCE</id>
+    <name>wiremock-record-12vw_CS-from_FCE</name>
+    <description>wiremock-record-12vw_CS-from_FCE Windows Service</description>
+    <executable>C:\Java\jdk1.8.0_181\bin\java</executable>
+    <arguments>-jar "wiremock-standalone-2.18.0.jar" --port 8810 --record-mappings --verbose --proxy-all="https://catalog-services-depcd12vw.mdv.mmo.de:9443" --root-dir "D:\Workspace\WireMockRoot\FCE-CS-mock"</arguments>
+    <logmode>rotate</logmode>
+</service>

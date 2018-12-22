@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <id>wiremock-playback</id>
+    <name>wiremock-playback</name>
+    <description>wiremock-playback Windows Service</description>
+    <executable>C:\Java\jdk1.8.0_181\bin\java</executable>
+    <arguments>-jar "wiremock-standalone-2.18.0.jar" --port 8810 --verbose --root-dir "D:\Workspace\WireMockRoot\FCE-CS-mock"</arguments>
+    <logmode>rotate</logmode>
+</service>
